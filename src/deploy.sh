@@ -1,9 +1,5 @@
 #!/bin/bash
 
-set -e
-
-sftp -b batch.txt 2219032@sftp.dc0.gpaas.net
-
 # function ping_site_maps {
 #   curl www.google.com/webmasters/sitemaps/ping?sitemap=http://www.sysmo.io/sitemap.xml
 #   echo ""
