@@ -1,0 +1,30 @@
+# -*- mode: ruby -*-
+require 'rubygems'
+require 'rake'
+
+DOC_SRC_DIR = "../sysmo-core/src/sysmo-java/shared/nchecks/build/docs/javadoc"
+DOC_DST_DIR = "static/assets/doc/nchecks/javadoc"
+SRC_DIR = Dir.pwd
+
+task :default => :run
+
+task :run => [:compile] do
+  sh "nanoc view"
+end
+
+task :compile => [:clean] do
+  #FileUtils.rm_rf(DOC_DST_DIR)
+  #FileUtils.cp_r(DOC_SRC_DIR, DOC_DST_DIR)
+  sh "nanoc compile"
+end
+
+task :clean do
+  FileUtils.rm_rf("output")
+  FileUtils.rm_rf("tmp")
+  FileUtils.rm_f("crash.log")
+  FileUtils.rm_rf(DOC_DST_DIR)
+end
+
+task :deploy do
+  sh "./deploy.sh"
+end

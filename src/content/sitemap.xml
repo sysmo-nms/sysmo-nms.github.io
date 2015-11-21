@@ -1,0 +1,5 @@
+---
+changefreq: weekly
+priority:   0.1
+---
+<%= xml_sitemap %>
