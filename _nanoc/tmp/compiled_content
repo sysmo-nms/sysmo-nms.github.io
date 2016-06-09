@@ -1,4 +1,4 @@
-{:	data{GI"/Services/Details/:ET{:default{	:	lastI"ç<!doctype html>
+{:	data{GI"/Services/Details/:ET{:default{	:	lastI"!<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -39,6 +39,9 @@
             -->
             <li class="">
               <a href="/Downloads"><strong>Downloads</strong></a>
+            </li>
+            <li class="">
+              <a href="https://github.com/sysmo-nms/sysmo-nms.github.io/wiki"><strong>Wiki</strong></a>
             </li>
             <li class="active">
               <a href="/Services"><strong>Services</strong></a>
@@ -154,7 +157,7 @@
   </div>
 </div>
 ;T:	post@
-I"/;T{;{	;I"’<!doctype html>
+I"/;T{;{	;I"i<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -195,6 +198,9 @@ I"/;T{;{	;I"’<!doctype html>
             -->
             <li class="">
               <a href="/Downloads"><strong>Downloads</strong></a>
+            </li>
+            <li class="">
+              <a href="https://github.com/sysmo-nms/sysmo-nms.github.io/wiki"><strong>Wiki</strong></a>
             </li>
             <li class="">
               <a href="/Services"><strong>Services</strong></a>
@@ -432,7 +438,7 @@ I"ï<div class="panel sysmo-header" style="border-width: 0px;">
     </p>
   </div>
 </div>
-;T;@I"/Community/;T{;{	;I"<!doctype html>
+;T;@I"/Community/;T{;{	;I"ü<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -473,6 +479,9 @@ I"ï<div class="panel sysmo-header" style="border-width: 0px;">
             -->
             <li class="">
               <a href="/Downloads"><strong>Downloads</strong></a>
+            </li>
+            <li class="">
+              <a href="https://github.com/sysmo-nms/sysmo-nms.github.io/wiki"><strong>Wiki</strong></a>
             </li>
             <li class="">
               <a href="/Services"><strong>Services</strong></a>
@@ -674,7 +683,7 @@ service will alerts us. Post any question concerning the extensions <span class=
     </div>
   </div>
 </div>
-;T;@I"/Products/Purchase/;T{;{	;I"è<!doctype html>
+;T;@I"/Products/Purchase/;T{;{	;I"#<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -715,6 +724,9 @@ service will alerts us. Post any question concerning the extensions <span class=
             -->
             <li class="">
               <a href="/Downloads"><strong>Downloads</strong></a>
+            </li>
+            <li class="">
+              <a href="https://github.com/sysmo-nms/sysmo-nms.github.io/wiki"><strong>Wiki</strong></a>
             </li>
             <li class="">
               <a href="/Services"><strong>Services</strong></a>
@@ -830,7 +842,7 @@ I"E
     <p>A good starting point to new users, developpers and¬†contributors.</p>
   </div>
 </div>
-;T;@I"/Documentation/;T{;{	;I":<!doctype html>
+;T;@I"/Documentation/;T{;{	;I"Œ<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -871,6 +883,9 @@ I"E
             -->
             <li class="">
               <a href="/Downloads"><strong>Downloads</strong></a>
+            </li>
+            <li class="">
+              <a href="https://github.com/sysmo-nms/sysmo-nms.github.io/wiki"><strong>Wiki</strong></a>
             </li>
             <li class="">
               <a href="/Services"><strong>Services</strong></a>
@@ -958,7 +973,7 @@ I"Ò<div class="row">
     </div>
   </div>
 </div>
-;T;@"I"/About/;T{;{	;I"ˇ<!doctype html>
+;T;@"I"/About/;T{;{	;I"ì<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -999,6 +1014,9 @@ I"Ò<div class="row">
             -->
             <li class="">
               <a href="/Downloads"><strong>Downloads</strong></a>
+            </li>
+            <li class="">
+              <a href="https://github.com/sysmo-nms/sysmo-nms.github.io/wiki"><strong>Wiki</strong></a>
             </li>
             <li class="">
               <a href="/Services"><strong>Services</strong></a>
@@ -1194,7 +1212,7 @@ I"∏<div class="row">
     <p><strong><span class="nobr">Sysmo-core</span></strong> and his user interface <strong><span class="nobr">Sysmo-Operator</span></strong> are released under the <strong>GPLv3</strong> license. <strong>Nchecks</strong> <span class="caps">API</span> and modules are under the <strong>Apache2</strong>¬†license.</p>
   </div>
 </div>
-;T;@(I"/Products/;T{;{	;I"F<!doctype html>
+;T;@(I"/Products/;T{;{	;I"⁄<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -1235,6 +1253,9 @@ I"∏<div class="row">
             -->
             <li class="">
               <a href="/Downloads"><strong>Downloads</strong></a>
+            </li>
+            <li class="">
+              <a href="https://github.com/sysmo-nms/sysmo-nms.github.io/wiki"><strong>Wiki</strong></a>
             </li>
             <li class="">
               <a href="/Services"><strong>Services</strong></a>
@@ -1463,7 +1484,7 @@ I"¸
     <p>Under¬†construction</p>
   </div>
 </div>
-;T;@.I"/Downloads/;T{;{	;I"H<!doctype html>
+;T;@.I"/Downloads/;T{;{	;I"‹<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -1504,6 +1525,9 @@ I"¸
             -->
             <li class="active">
               <a href="/Downloads"><strong>Downloads</strong></a>
+            </li>
+            <li class="">
+              <a href="https://github.com/sysmo-nms/sysmo-nms.github.io/wiki"><strong>Wiki</strong></a>
             </li>
             <li class="">
               <a href="/Services"><strong>Services</strong></a>
@@ -1621,7 +1645,7 @@ I"˝
   </div>
 </div>
 
-;T;@4I"/Services/;T{;{	;I"∂'<!doctype html>
+;T;@4I"/Services/;T{;{	;I"J(<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -1662,6 +1686,9 @@ I"˝
             -->
             <li class="">
               <a href="/Downloads"><strong>Downloads</strong></a>
+            </li>
+            <li class="">
+              <a href="https://github.com/sysmo-nms/sysmo-nms.github.io/wiki"><strong>Wiki</strong></a>
             </li>
             <li class="active">
               <a href="/Services"><strong>Services</strong></a>
