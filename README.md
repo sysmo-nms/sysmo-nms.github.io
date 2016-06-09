@@ -1,8 +1,5 @@
 www.sysmo.io
 ============
-The main web site.
+The [main web site](http://www.sysmo.io).
 
-
-[github.com/sysmo-nms/sysmo-nms.github.io/wiki](github.com/sysmo-nms/sysmo-nms.github.io/wiki)
-==============================================================================================
-The wiki.
+The [wikki](https://github.com/sysmo-nms/sysmo-nms.github.io/wiki).
