@@ -1,3 +1,2 @@
-src/tmp
-src/crash.log
-/_nanoc/tmp/*
+/_nanoc/crash.log
+/_nanoc/tmp
