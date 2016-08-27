@@ -3,6 +3,8 @@ run: install
 
 install:
 	nanoc compile
+	rm -f ../releases.xml.asc
+	gpg --output ../releases.xml.asc --detach-sign ../releases.xml
 
 clean:
 	find .. -maxdepth 1 \
