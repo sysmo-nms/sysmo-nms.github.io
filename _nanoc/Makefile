@@ -12,4 +12,5 @@ clean:
 	    ! -name '.gitignore' \
 	    ! -name '.git' \
 	    ! -name '..' \
+	    ! -name 'runtime' \
 	    -exec rm -r {} \;
