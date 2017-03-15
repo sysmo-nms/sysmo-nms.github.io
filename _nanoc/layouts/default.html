@@ -40,8 +40,8 @@
             <li class="<%= active_if("Downloads", @item[:root_menu]) %>">
               <a href="/Downloads"><strong>Downloads</strong></a>
             </li>
-            <li class="">
-              <a target="_blank" href="https://github.com/sysmo-nms/sysmo-nms.github.io/wiki#user-content-sysmo-wiki"><strong>Wiki</strong></a>
+            <li class="<%= active_if("Downloads", @item[:root_menu]) %>">
+              <a href="/Documentation"><strong>Documentation</strong></a>
             </li>
             <li class="<%= active_if("Services", @item[:root_menu]) %>">
               <a href="/Services"><strong>Services</strong></a>
