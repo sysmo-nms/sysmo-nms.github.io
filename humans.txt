@@ -4,7 +4,7 @@
     Location:   Bordeaux, France
 
 /* SITE */
-    Last update:    2017/01/26
+    Last update:    2017/03/17
     Language:       English
     Doctype:        HTML5
     Standards:      HTML5, CSS3
