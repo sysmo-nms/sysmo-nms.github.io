@@ -2925,3 +2925,20 @@ Google map
     width: 100%;
   }
 }
+
+.sysmo-tiny,
+.sysmo-medium,
+.sysmo-big {
+    font-weight: 600;
+}
+.sysmo-tiny {
+    letter-spacing: 0px;
+    font-size: 110%;
+}
+.sysmo-medium {
+    letter-spacing: 2px;
+    font-size: 115%;
+}
+.sysmo-big {
+    letter-spacing: 10px;
+}
