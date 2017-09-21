@@ -1,0 +1,10 @@
+/*
+ * jQuery.appear
+ * https://github.com/bas2k/jquery.appear/
+ * http://code.google.com/p/jquery-appear/
+ *
+ * Copyright (c) 2009 Michael Hixson
+ * Copyright (c) 2012 Alexander Brovikov
+ * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
+ */
+!function(e){e.fn.appear=function(a,n){var t=e.extend({data:undefined,one:!0,accX:0,accY:0},n);return this.each(function(){var n=e(this);if(n.appeared=!1,!a)return void n.trigger("appear",t.data);var r=e(window),o=function(){if(!n.is(":visible"))return void(n.appeared=!1);var e=r.scrollLeft(),a=r.scrollTop(),o=n.offset(),p=o.left,c=o.top,f=t.accX,i=t.accY,l=n.height(),s=r.height(),u=n.width(),d=r.width();c+l+i>=a&&c<=a+s+i&&p+u+f>=e&&p<=e+d+f?n.appeared||n.trigger("appear",t.data):n.appeared=!1},p=function(){if(n.appeared=!0,t.one){r.unbind("scroll",o);var p=e.inArray(o,e.fn.appear.checks);p>=0&&e.fn.appear.checks.splice(p,1)}a.apply(this,arguments)};t.one?n.one("appear",t.data,p):n.bind("appear",t.data,p),r.scroll(o),e.fn.appear.checks.push(o),o()})},e.extend(e.fn.appear,{checks:[],timeout:null,checkAll:function(){var a=e.fn.appear.checks.length;if(a>0)for(;a--;)e.fn.appear.checks[a]()},run:function(){e.fn.appear.timeout&&clearTimeout(e.fn.appear.timeout),e.fn.appear.timeout=setTimeout(e.fn.appear.checkAll,20)}}),e.each(["append","prepend","after","before","attr","removeAttr","addClass","removeClass","toggleClass","remove","css","show","hide"],function(a,n){var t=e.fn[n];t&&(e.fn[n]=function(){var a=t.apply(this,arguments);return e.fn.appear.run(),a})})}(jQuery),function(e){e.fn.countTo=function(a){a=e.extend({},e.fn.countTo.defaults,a||{});var n=Math.ceil(a.speed/a.refreshInterval),t=(a.to-a.from)/n;return e(this).each(function(){function r(){c+=t,p++,e(o).html(c.toFixed(a.decimals)),"function"==typeof a.onUpdate&&a.onUpdate.call(o,c),p>=n&&(clearInterval(f),c=a.to,"function"==typeof a.onComplete&&a.onComplete.call(o,c))}var o=this,p=0,c=a.from,f=setInterval(r,a.refreshInterval)})},e.fn.countTo.defaults={from:0,to:100,speed:1e3,refreshInterval:100,decimals:0,onUpdate:null,onComplete:null}}(jQuery);

@@ -1,461 +1,957 @@
-<!DOCTYPE html>
-<html lang="en-US" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--  
-    Document Title
-    =============================================
-    -->
-    <title>Titan | Multipurpose HTML5 Template</title>
-    <!--  
-    Favicons
-    =============================================
-    -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <!--  
-    Stylesheets
-    =============================================
-    
-    -->
-    <!-- Default stylesheets-->
-    <link href="/assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Template specific stylesheets-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <link href="/assets/lib/animate.css/animate.css" rel="stylesheet">
-    <link href="/assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
-    <link href="/assets/lib/flexslider/flexslider.css" rel="stylesheet">
-    <link href="/assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="/assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
-    <link href="/assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
-    <link href="/assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
-    <!-- Main stylesheet and color file-->
-    <link href="/assets/css/style.css" rel="stylesheet">
-    <link id="color-scheme" href="/assets/css/colors/default.css" rel="stylesheet">
-  </head>
-  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
-    <main>
-      <div class="page-loader">
-        <div class="loader">Loading...</div>
-      </div>
-      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/index.html">Titan</a>
-          </div>
-          <div class="collapse navbar-collapse" id="custom-collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Home</a>
-                <ul class="dropdown-menu">
-                  <li><a href="/examples/index_mp_fullscreen_video_background.html">Default</a></li>
-                  <li><a href="/examples/index_op_fullscreen_gradient_overlay.html">One Page</a></li>
-                  <li><a href="/examples/index_agency.html">Agency</a></li>
-                  <li><a href="/examples/index_portfolio.html">Portfolio</a></li>
-                  <li><a href="/examples/index_restaurant.html">Restaurant</a></li>
-                  <li><a href="/examples/index_finance.html">Finance</a></li>
-                  <li><a href="/examples/index_landing.html">Landing Page</a></li>
-                  <li><a href="/examples/index_photography.html">Photography</a></li>
-                  <li><a href="/examples/index_shop.html">Shop</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Headers</a>
-                <ul class="dropdown-menu">
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Static Image Header</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/index_mp_fullscreen_static.html">Fulscreen</a></li>
-                      <li><a href="/examples/index_mp_classic_static.html">Classic</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Flexslider Header</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/index_mp_fullscreen_flexslider.html">Fulscreen</a></li>
-                      <li><a href="/examples/index_mp_classic_flexslider.html">Classic</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Video Background Header</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/index_mp_fullscreen_video_background.html">Fulscreen</a></li>
-                      <li><a href="/examples/index_mp_classic_video_background.html">Classic</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Text Rotator Header</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/index_mp_fullscreen_text_rotator.html">Fulscreen</a></li>
-                      <li><a href="/examples/index_mp_classic_text_rotator.html">Classic</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Gradient Overlay Header</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/index_mp_fullscreen_gradient_overlay.html">Fulscreen</a></li>
-                      <li><a href="/examples/index_mp_classic_gradient_overlay.html">Classic</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Pages</a>
-                <ul class="dropdown-menu">
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">About</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/about1.html">About 1</a></li>
-                      <li><a href="/examples/about2.html">About 2</a></li>
-                      <li><a href="/examples/about3.html">About 3</a></li>
-                      <li><a href="/examples/about4.html">About 4</a></li>
-                      <li><a href="/examples/about5.html">About 5</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Services</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/service1.html">Service 1</a></li>
-                      <li><a href="/examples/service2.html">Service 2</a></li>
-                      <li><a href="/examples/service3.html">Service 3</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Pricing</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/pricing1.html">Pricing 1</a></li>
-                      <li><a href="/examples/pricing2.html">Pricing 2</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Gallery</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/gallery_col_2.html">2 Columns</a></li>
-                      <li><a href="/examples/gallery_col_3.html">3 Columns</a></li>
-                      <li><a href="/examples/gallery_col_4.html">4 Columns</a></li>
-                      <li><a href="/examples/gallery_col_6.html">6 Columns</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Contact</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/contact1.html">Contact 1</a></li>
-                      <li><a href="/examples/contact2.html">Contact 2</a></li>
-                      <li><a href="/examples/contact3.html">Contact 3</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Restaurant menu</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/restaurant_menu1.html">Menu 2 Columns</a></li>
-                      <li><a href="/examples/restaurant_menu2.html">Menu 3 Columns</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="login_register.html">Login / Register</a></li>
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a href="/404.html">Page 404</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Portfolio</a>
-                <ul class="dropdown-menu" role="menu">
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Boxed</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/portfolio_boxed_col_2.html">2 Columns</a></li>
-                      <li><a href="/examples/portfolio_boxed_col_3.html">3 Columns</a></li>
-                      <li><a href="/examples/portfolio_boxed_col_4.html">4 Columns</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Boxed - Gutter</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/portfolio_boxed_gutter_col_2.html">2 Columns</a></li>
-                      <li><a href="/examples/portfolio_boxed_gutter_col_3.html">3 Columns</a></li>
-                      <li><a href="/examples/portfolio_boxed_gutter_col_4.html">4 Columns</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Full Width</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/portfolio_full_width_col_2.html">2 Columns</a></li>
-                      <li><a href="/examples/portfolio_full_width_col_3.html">3 Columns</a></li>
-                      <li><a href="/examples/portfolio_full_width_col_4.html">4 Columns</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Full Width - Gutter</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/portfolio_full_width_gutter_col_2.html">2 Columns</a></li>
-                      <li><a href="/examples/portfolio_full_width_gutter_col_3.html">3 Columns</a></li>
-                      <li><a href="/examples/portfolio_full_width_gutter_col_4.html">4 Columns</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Masonry</a>
-                    <ul class="dropdown-menu">
-                      <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Boxed</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/examples/portfolio_masonry_boxed_col_2.html">2 Columns</a></li>
-                          <li><a href="/examples/portfolio_masonry_boxed_col_3.html">3 Columns</a></li>
-                          <li><a href="/examples/portfolio_masonry_boxed_col_4.html">4 Columns</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Full Width</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/examples/portfolio_masonry_full_width_col_2.html">2 Columns</a></li>
-                          <li><a href="/examples/portfolio_masonry_full_width_col_3.html">3 Columns</a></li>
-                          <li><a href="/examples/portfolio_masonry_full_width_col_4.html">4 Columns</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Hover Style</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/portfolio_hover_black.html">Black</a></li>
-                      <li><a href="/examples/portfolio_hover_gradient.html">Gradient</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Single</a>
-                    <ul class="dropdown-menu">
-                      <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Featured Image</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/examples/portfolio_single_featured_image1.html">Style 1</a></li>
-                          <li><a href="/examples/portfolio_single_featured_image2.html">Style 2</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Featured Slider</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/examples/portfolio_single_featured_slider1.html">Style 1</a></li>
-                          <li><a href="/examples/portfolio_single_featured_slider2.html">Style 2</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Featured Video</a>
-                        <ul class="dropdown-menu">
-                          <li><a href="/examples/portfolio_single_featured_video1.html">Style 1</a></li>
-                          <li><a href="/examples/portfolio_single_featured_video2.html">Style 2</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Blog</a>
-                <ul class="dropdown-menu" role="menu">
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Standard</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/blog_standard_left_sidebar.html">Left Sidebar</a></li>
-                      <li><a href="/examples/blog_standard_right_sidebar.html">Right Sidebar</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Grid</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/blog_grid_col_2.html">2 Columns</a></li>
-                      <li><a href="/examples/blog_grid_col_3.html">3 Columns</a></li>
-                      <li><a href="/examples/blog_grid_col_4.html">4 Columns</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Masonry</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/blog_grid_masonry_col_2.html">2 Columns</a></li>
-                      <li><a href="/examples/blog_grid_masonry_col_3.html">3 Columns</a></li>
-                      <li><a href="/examples/blog_grid_masonry_col_4.html">4 Columns</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Single</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/blog_single_left_sidebar.html">Left Sidebar</a></li>
-                      <li><a href="/examples/blog_single_right_sidebar.html">Right Sidebar</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Features</a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="/examples/alerts-and-wells.html"><i class="fa fa-bolt"></i> Alerts and Wells</a></li>
-                  <li><a href="/examples/buttons.html"><i class="fa fa-link fa-sm"></i> Buttons</a></li>
-                  <li><a href="/examples/tabs_and_accordions.html"><i class="fa fa-tasks"></i> Tabs &amp; Accordions</a></li>
-                  <li><a href="/examples/content_box.html"><i class="fa fa-list-alt"></i> Contents Box</a></li>
-                  <li><a href="/examples/forms.html"><i class="fa fa-check-square-o"></i> Forms</a></li>
-                  <li><a href="/examples/icons.html"><i class="fa fa-star"></i> Icons</a></li>
-                  <li><a href="/examples/progress-bars.html"><i class="fa fa-server"></i> Progress Bars</a></li>
-                  <li><a href="/examples/typography.html"><i class="fa fa-font"></i> Typography</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Shop</a>
-                <ul class="dropdown-menu" role="menu">
-                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Product</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/examples/shop_product_col_3.html">3 columns</a></li>
-                      <li><a href="/examples/shop_product_col_4.html">4 columns</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="/examples/shop_single_product.html">Single Product</a></li>
-                  <li><a href="/examples/shop_checkout.html">Checkout</a></li>
-                </ul>
-              </li>
-              <!--li.dropdown.navbar-cart-->
-              <!--    a.dropdown-toggle(href='#', data-toggle='dropdown')-->
-              <!--        span.icon-basket-->
-              <!--        |-->
-              <!--        span.cart-item-number 2-->
-              <!--    ul.dropdown-menu.cart-list(role='menu')-->
-              <!--        li-->
-              <!--            .navbar-cart-item.clearfix-->
-              <!--                .navbar-cart-img-->
-              <!--                    a(href='#')-->
-              <!--                        img(src='assets/images/shop/product-9.jpg', alt='')-->
-              <!--                .navbar-cart-title-->
-              <!--                    a(href='#') Short striped sweater-->
-              <!--                    |-->
-              <!--                    span.cart-amount 2 &times; $119.00-->
-              <!--                    br-->
-              <!--                    |-->
-              <!--                    strong.cart-amount $238.00-->
-              <!--        li-->
-              <!--            .navbar-cart-item.clearfix-->
-              <!--                .navbar-cart-img-->
-              <!--                    a(href='#')-->
-              <!--                        img(src='assets/images/shop/product-10.jpg', alt='')-->
-              <!--                .navbar-cart-title-->
-              <!--                    a(href='#') Colored jewel rings-->
-              <!--                    |-->
-              <!--                    span.cart-amount 2 &times; $119.00-->
-              <!--                    br-->
-              <!--                    |-->
-              <!--                    strong.cart-amount $238.00-->
-              <!--        li-->
-              <!--            .clearfix-->
-              <!--                .cart-sub-totle-->
-              <!--                    strong Total: $476.00-->
-              <!--        li-->
-              <!--            .clearfix-->
-              <!--                a.btn.btn-block.btn-round.btn-font-w(type='submit') Checkout-->
-              <!--li.dropdown-->
-              <!--    a.dropdown-toggle(href='#', data-toggle='dropdown') Search-->
-              <!--    ul.dropdown-menu(role='menu')-->
-              <!--        li-->
-              <!--            .dropdown-search-->
-              <!--                form(role='form')-->
-              <!--                    input.form-control(type='text', placeholder='Search...')-->
-              <!--                    |-->
-              <!--                    button.search-btn(type='submit')-->
-              <!--                        i.fa.fa-search-->
-              <li class="dropdown"><a class="dropdown-toggle" href="documentation.html" data-toggle="dropdown">Documentation</a>
-                <ul class="dropdown-menu">
-                  <li><a href="documentation.html#contact">Contact Form</a></li>
-                  <li><a href="documentation.html#reservation">Reservation Form</a></li>
-                  <li><a href="documentation.html#mailchimp">Mailchimp</a></li>
-                  <li><a href="documentation.html#gmap">Google Map</a></li>
-                  <li><a href="documentation.html#plugin">Plugins</a></li>
-                  <li><a href="documentation.html#changelog">Changelog</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="main documentation-page">
-        <section class="module bg-dark-60 about-page-header" data-background="/assets/images/about_bg.jpg">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Documentation</h2>
-                <div class="module-subtitle font-serif">Thank you for choosing this template. If you have any questions please feel free to email us</div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module-medium" id="contact">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Contact Form</h2>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <p>Open the file &nbsp;<strong>assets/php/contact.php</strong>&nbsp; and enter your data:</p>
-                <pre class="prettyprint lang-basic">$to = 'info@example.com';  // please change this email id
-$subject = 'Contact Form : Titan - The best downloaded template ever';</pre>
-                <h4>If Contact form form not working</h4>
-                <p>You need to check is PHP mail() function working.</p>
-                <p>
-                  <textarea rows="4" style="width:100%; text-transform: lowercase;"><?php
+<!DOCTYPE html> <html lang="en-US" dir="ltr"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Titan | Multipurpose HTML5 Template</title> <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-icon-57x57-77589a83.png"> <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-icon-60x60-ee986d48.png"> <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-icon-72x72-76742786.png"> <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicons/apple-icon-76x76-817ccc8e.png"> <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-icon-114x114-5372a53e.png"> <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-icon-120x120-fcb724a5.png"> <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicons/apple-icon-144x144-6b53dbac.png"> <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicons/apple-icon-152x152-56c7c7af.png"> <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-icon-180x180-c92af253.png"> <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/android-icon-192x192-d73c13ce.png"> <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32-621661ce.png"> <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicons/favicon-96x96-c1d54a33.png"> <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16-9f52c1df.png"> <link rel="manifest" href="/manifest.json"> <meta name="msapplication-TileColor" content="#ffffff"> <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144-6b53dbac.png"> <meta name="theme-color" content="#ffffff"> <style type="text/css">
+    html {
+      font-family: sans-serif;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    main,
+    nav,
+    section {
+      display: block;
+    }
+
+    a {
+      background-color: transparent;
+    }
+
+    strong {
+      font-weight: 700;
+    }
+
+    pre {
+      overflow: auto;
+    }
+
+    pre {
+      font-family: monospace,monospace;
+      font-size: 1em;
+    }
+
+    button,
+    textarea {
+      margin: 0;
+      font: inherit;
+      color: inherit;
+    }
+
+    button {
+      overflow: visible;
+    }
+
+    button {
+      text-transform: none;
+    }
+
+    button {
+      -webkit-appearance: button;
+    }
+
+    button::-moz-focus-inner {
+      padding: 0;
+      border: 0;
+    }
+
+    textarea {
+      overflow: auto;
+    }
+
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    :after,
+    :before {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 10px;
+    }
+
+    body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #333;
+      background-color: #fff;
+    }
+
+    button,
+    textarea {
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+    }
+
+    a {
+      color: #337ab7;
+      text-decoration: none;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+
+    h2,
+    h4 {
+      font-family: inherit;
+      font-weight: 500;
+      line-height: 1.1;
+      color: inherit;
+    }
+
+    h2 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    h4 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+
+    h4 {
+      font-size: 18px;
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    ul ul {
+      margin-bottom: 0;
+    }
+
+    pre {
+      font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    }
+
+    pre {
+      display: block;
+      padding: 9.5px;
+      margin: 0 0 10px;
+      font-size: 13px;
+      line-height: 1.42857143;
+      color: #333;
+      word-break: break-all;
+      word-wrap: break-word;
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        width: 750px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        width: 970px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px;
+      }
+    }
+
+    .row {
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+
+    .col-sm-6,
+    .col-sm-8 {
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    @media (min-width: 768px) {
+      .col-sm-6,
+      .col-sm-8 {
+        float: left;
+      }
+
+      .col-sm-8 {
+        width: 66.66666667%;
+      }
+
+      .col-sm-6 {
+        width: 50%;
+      }
+
+      .col-sm-offset-3 {
+        margin-left: 25%;
+      }
+
+      .col-sm-offset-2 {
+        margin-left: 16.66666667%;
+      }
+    }
+
+    .collapse {
+      display: none;
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 1000;
+      display: none;
+      float: left;
+      min-width: 160px;
+      padding: 5px 0;
+      margin: 2px 0 0;
+      font-size: 14px;
+      text-align: left;
+      list-style: none;
+      background-color: #fff;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      border: 1px solid #ccc;
+      border: 1px solid rgba(0,0,0,0.15);
+      border-radius: 4px;
+      -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    }
+
+    .dropdown-menu>li>a {
+      display: block;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: 400;
+      line-height: 1.42857143;
+      color: #333;
+      white-space: nowrap;
+    }
+
+    @media (min-width: 768px) {
+      .navbar-right .dropdown-menu {
+        right: 0;
+        left: auto;
+      }
+    }
+
+    .nav {
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+    }
+
+    .nav>li {
+      position: relative;
+      display: block;
+    }
+
+    .nav>li>a {
+      position: relative;
+      display: block;
+      padding: 10px 15px;
+    }
+
+    .navbar {
+      position: relative;
+      min-height: 50px;
+      margin-bottom: 20px;
+      border: 1px solid transparent;
+    }
+
+    @media (min-width: 768px) {
+      .navbar {
+        border-radius: 4px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .navbar-header {
+        float: left;
+      }
+    }
+
+    .navbar-collapse {
+      padding-right: 15px;
+      padding-left: 15px;
+      overflow-x: visible;
+      -webkit-overflow-scrolling: touch;
+      border-top: 1px solid transparent;
+      -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+
+    @media (min-width: 768px) {
+      .navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+
+      .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+      }
+
+      .navbar-fixed-top .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+
+    .navbar-fixed-top .navbar-collapse {
+      max-height: 340px;
+    }
+
+    @media (max-device-width: 480px) and (orientation: landscape) {
+      .navbar-fixed-top .navbar-collapse {
+        max-height: 200px;
+      }
+    }
+
+    .container>.navbar-collapse,
+    .container>.navbar-header {
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+
+    @media (min-width: 768px) {
+      .container>.navbar-collapse,
+      .container>.navbar-header {
+        margin-right: 0;
+        margin-left: 0;
+      }
+    }
+
+    .navbar-fixed-top {
+      position: fixed;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+    }
+
+    @media (min-width: 768px) {
+      .navbar-fixed-top {
+        border-radius: 0;
+      }
+    }
+
+    .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+    }
+
+    .navbar-brand {
+      float: left;
+      height: 50px;
+      padding: 15px 15px;
+      font-size: 18px;
+      line-height: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .navbar>.container .navbar-brand {
+        margin-left: -15px;
+      }
+    }
+
+    .navbar-toggle {
+      position: relative;
+      float: right;
+      padding: 9px 10px;
+      margin-top: 8px;
+      margin-right: 15px;
+      margin-bottom: 8px;
+      background-color: transparent;
+      background-image: none;
+      border: 1px solid transparent;
+      border-radius: 4px;
+    }
+
+    .navbar-toggle .icon-bar {
+      display: block;
+      width: 22px;
+      height: 2px;
+      border-radius: 1px;
+    }
+
+    .navbar-toggle .icon-bar+.icon-bar {
+      margin-top: 4px;
+    }
+
+    @media (min-width: 768px) {
+      .navbar-toggle {
+        display: none;
+      }
+    }
+
+    .navbar-nav {
+      margin: 7.5px -15px;
+    }
+
+    .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      line-height: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .navbar-nav {
+        float: left;
+        margin: 0;
+      }
+
+      .navbar-nav>li {
+        float: left;
+      }
+
+      .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    }
+
+    .navbar-nav>li>.dropdown-menu {
+      margin-top: 0;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    @media (min-width: 768px) {
+      .navbar-right {
+        float: right !important;
+        margin-right: -15px;
+      }
+    }
+
+    .container:after,
+    .container:before,
+    .nav:after,
+    .nav:before,
+    .navbar-collapse:after,
+    .navbar-collapse:before,
+    .navbar-header:after,
+    .navbar-header:before,
+    .navbar:after,
+    .navbar:before,
+    .row:after,
+    .row:before {
+      display: table;
+      content: " ";
+    }
+
+    .container:after,
+    .nav:after,
+    .navbar-collapse:after,
+    .navbar-header:after,
+    .navbar:after,
+    .row:after {
+      clear: both;
+    }
+
+    @-ms-viewport {
+      width: device-width;
+    }
+
+    @font-face {
+      font-family: 'Roboto Condensed';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(https://fonts.gstatic.com/s/robotocondensed/v14/Zd2E9abXLFGSr9G3YK2MsDR-eWpsHSw83BRsAQElGgc.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Roboto Condensed';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(https://fonts.gstatic.com/s/robotocondensed/v14/b9QBgL0iMZfDSpmcXcE8nDokq8qT6AIiNJ07Vf_NrVA.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Volkhov';
+      font-style: italic;
+      font-weight: 400;
+      src: local('Volkhov Italic'), local('Volkhov-Italic'), url(https://fonts.gstatic.com/s/volkhov/v8/Y_Jmwi-iHxNj27PG4ILsdaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTYnF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 600;
+      src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v14/MTP_ySUJH_bn48VBG8sNSonF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 800;
+      src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://fonts.gstatic.com/s/opensans/v14/EInbV5DfGHOiMmvb1Xr-honF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: 'FontAwesome';
+      src: url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-d980c2ce.eot?v=4.7.0');
+      src: url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-d980c2ce.eot?#iefix&v=4.7.0') format("embedded-opentype"),url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-d6f48cba.woff2?v=4.7.0') format("woff2"),url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-28b78224.woff?v=4.7.0') format("woff"),url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-13b1eab6.ttf?v=4.7.0') format("truetype"),url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-98a8aa5c.svg?v=4.7.0#fontawesomeregular') format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .fa {
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .fa-star:before {
+      content: "\f005";
+    }
+
+    .fa-list-alt:before {
+      content: "\f022";
+    }
+
+    .fa-font:before {
+      content: "\f031";
+    }
+
+    .fa-check-square-o:before {
+      content: "\f046";
+    }
+
+    .fa-tasks:before {
+      content: "\f0ae";
+    }
+
+    .fa-link:before {
+      content: "\f0c1";
+    }
+
+    .fa-bolt:before {
+      content: "\f0e7";
+    }
+
+    .fa-server:before {
+      content: "\f233";
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      border: 0;
+    }
+
+    button::-moz-focus-inner {
+      padding: 0;
+      border: 0;
+    }
+
+    html {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      -ms-overflow-style: scrollbar;
+    }
+
+    body {
+      background: #fff;
+      font: 400 12px/1.8 "Open Sans", sans-serif;
+      color: #666;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .navbar-custom .dropdown-menu {
+      box-shadow: none;
+    }
+
+    .navbar-custom+.main {
+      margin-top: 50px;
+    }
+
+    .main {
+      position: relative;
+      background-color: #fff;
+      z-index: 1;
+    }
+
+    .module {
+      position: relative;
+      padding: 140px 0;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover;
+    }
+
+    .module-medium {
+      padding: 75px 0px;
+    }
+
+    .bg-dark-60,
+    .bg-dark-60 .module-title,
+    .bg-dark-60 .module-subtitle {
+      color: #fff;
+    }
+
+    .bg-dark-60:before {
+      position: absolute;
+      background: rgba(34,34,34,0.8);
+      content: " ";
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    ::-webkit-selection {
+      background: #000;
+      color: #fff;
+    }
+
+    a {
+      color: #111;
+    }
+
+    h2,
+    h4 {
+      line-height: 1.4;
+      font-weight: 400;
+    }
+
+    p,
+    ul {
+      margin: 0 0 20px;
+    }
+
+    .font-alt {
+      font-family: "Roboto Condensed", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .font-serif {
+      font-family: Volkhov, "Times New Roman", sans-serif;
+      font-style: italic;
+    }
+
+    .module-title {
+      position: relative;
+      letter-spacing: 4px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 30px;
+      color: #111;
+      margin: 0 0 70px;
+    }
+
+    .module-subtitle {
+      text-align: center;
+      font-size: 16px;
+      color: #111;
+      margin-bottom: 70px;
+    }
+
+    .module-title+.module-subtitle {
+      margin-top: -35px;
+    }
+
+    .page-loader {
+      position: fixed;
+      background: #000;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      top: 0;
+      z-index: 9998;
+    }
+
+    .loader {
+      position: absolute;
+      border-left: 2px solid #ffffff;
+      border-top: 2px solid rgba(255,255,255,0.2);
+      border-right: 2px solid rgba(255,255,255,0.2);
+      border-bottom: 2px solid rgba(255,255,255,0.2);
+      height: 46px;
+      width: 46px;
+      left: 50%;
+      top: 50%;
+      margin: -23px 0 0 -23px;
+      text-indent: -9999em;
+      font-size: 10px;
+      z-index: 9999;
+      -webkit-animation: load 0.8s infinite linear;
+      -moz-animation: load 0.8s infinite linear;
+      ms-animation: load 0.8s infinite linear;
+      o-animation: load 0.8s infinite linear;
+      animation: load 0.8s infinite linear;
+    }
+
+    .loader,
+    .loader:after {
+      border-radius: 50%;
+      width: 46px;
+      height: 46px;
+    }
+
+    @-webkit-keyframes load {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes load {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+    .navbar-custom {
+      background-color: rgba(10,10,10,0.9);
+      border: 0;
+      border-radius: 0;
+      z-index: 1000;
+      font-family: "Roboto Condensed", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 11px;
+    }
+
+    .navbar-custom .dropdown-menu {
+      background: rgba(26,26,26,0.9);
+      border-radius: 0;
+      border: 0;
+      padding: 0;
+      box-shadow: none;
+    }
+
+    .navbar-custom .navbar-brand {
+      letter-spacing: 4px;
+      font-weight: 400;
+      font-size: 22px;
+      color: #fff;
+    }
+
+    .navbar-custom .nav li>a {
+      position: relative;
+      color: rgba(255,255,255,0.7);
+    }
+
+    .navbar-custom .dropdown-menu>li>a {
+      border-bottom: 1px solid rgba(73,71,71,0.15) !important;
+      padding: 11px 15px;
+      letter-spacing: 2px;
+      color: #999;
+    }
+
+    .navbar-custom .dropdown-menu .dropdown-menu {
+      border-left: 1px solid rgba(73,71,71,0.15);
+      left: 100%;
+      right: auto;
+      top: 0;
+      margin-top: 0;
+    }
+
+    .navbar-custom .dropdown-toggle:after {
+      position: absolute;
+      display: block;
+      right: 0;
+      top: 50%;
+      margin-top: -6px;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: 9px;
+      content: "\f107";
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .navbar-custom .navbar-toggle .icon-bar {
+      background: #fff;
+    }
+
+    .dropdown-menu {
+      min-width: 180px;
+      font-size: 11px;
+    }
+
+    .about-page-header:before {
+      background: rgba(2,2,2,0.2);
+    }
+
+    .documentation-page {
+      font-size: 14px;
+    }
+
+    .documentation-page pre.prettyprint {
+      border: 1px solid #888;
+      padding: 15px;
+    }
+
+    @media (min-width: 768px) {
+      .navbar-custom .dropdown-menu {
+        position: absolute;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+      }
+
+      .navbar-custom .dropdown-menu .dropdown-toggle:after {
+        position: absolute;
+        display: block;
+        right: 9px;
+        top: 50%;
+        margin-top: -6px;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 9px;
+        content: "\f105";
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .navbar-right .dropdown-menu {
+        right: auto;
+        left: 0;
+      }
+    }
+
+    @media (max-width: 1050px) {
+      .navbar-custom {
+        letter-spacing: 1px;
+      }
+    }
+
+    @media (max-width: 991px) {
+      .navbar-custom {
+        letter-spacing: 0;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .navbar-custom .navbar-nav {
+        letter-spacing: 3px;
+        margin-top: 1px;
+        margin-bottom: 0;
+      }
+
+      .navbar-custom li a {
+        border-bottom: 1px solid rgba(73,71,71,0.15) !important;
+      }
+
+      .navbar-custom .dropdown-toggle:after,
+      .navbar-custom .dropdown-menu .dropdown-toggle:after {
+        right: 7px;
+        content: "\f107";
+      }
+    }
+
+</style>
+<link href="/assets/lib/bootstrap/dist/css/bootstrap.min-6527d8bf.1fe3a920.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/bootstrap/dist/css/bootstrap.min-6527d8bf.1fe3a920.css" rel="stylesheet"></noscript> <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet"></noscript> <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet"></noscript> <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"></noscript> <link href="/assets/lib/animate.css/animate-5bac0162.766368a2.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/animate.css/animate-5bac0162.766368a2.css" rel="stylesheet"></noscript> <link href="/assets/lib/components-font-awesome/css/font-awesome.min-512c7d79.a62ef2a2.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/components-font-awesome/css/font-awesome.min-512c7d79.a62ef2a2.css" rel="stylesheet"></noscript> <link href="/assets/lib/et-line-font/et-line-font-c4778f90.8667808c.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/et-line-font/et-line-font-c4778f90.8667808c.css" rel="stylesheet"></noscript> <link href="/assets/lib/flexslider/flexslider-c05798f0.78a7c341.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/flexslider/flexslider-c05798f0.78a7c341.css" rel="stylesheet"></noscript> <link href="/assets/lib/owl.carousel/dist/assets/owl.carousel.min-73d8a692.012d0566.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/owl.carousel/dist/assets/owl.carousel.min-73d8a692.012d0566.css" rel="stylesheet"></noscript> <link href="/assets/lib/owl.carousel/dist/assets/owl.theme.default.min-31f27f63.44f5110a.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/owl.carousel/dist/assets/owl.theme.default.min-31f27f63.44f5110a.css" rel="stylesheet"></noscript> <link href="/assets/lib/magnific-popup/dist/magnific-popup-d6963db6.c1df21fb.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/magnific-popup/dist/magnific-popup-d6963db6.c1df21fb.css" rel="stylesheet"></noscript> <link href="/assets/lib/simple-text-rotator/simpletextrotator-e0fb1ee8.605bbbf1.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/simple-text-rotator/simpletextrotator-e0fb1ee8.605bbbf1.css" rel="stylesheet"></noscript> <link href="/assets/css/style-12f7b5ad.03233133.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/css/style-12f7b5ad.03233133.css" rel="stylesheet"></noscript> <link id="color-scheme" href="/assets/css/colors/default-da39a3ee.68b329da.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link id="color-scheme" href="/assets/css/colors/default-da39a3ee.68b329da.css" rel="stylesheet"></noscript>
+<script>!function(e){"use strict";var t=function(t,n,r){function o(e){if(i.body)return e();setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var l,i=e.document,d=i.createElement("link");if(n)l=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=f,f(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(e){return!1}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r,r.getAttribute("media")),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){t.poly(),e.clearInterval(n)}),e.attachEvent&&e.attachEvent("onload",function(){e.clearInterval(n)})}}}(this);</script> </head> <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60"> <main> <div class="page-loader"> <div class="loader">Loading&#8230;</div> </div> <nav class="navbar navbar-custom navbar-fixed-top" role="navigation"> <div class="container"> <div class="navbar-header"> <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/index.html">Titan</a> </div> <div class="collapse navbar-collapse" id="custom-collapse"> <ul class="nav navbar-nav navbar-right"> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Home</a> <ul class="dropdown-menu"> <li><a href="/examples/index_mp_fullscreen_video_background.html">Default</a></li> <li><a href="/examples/index_op_fullscreen_gradient_overlay.html">One&nbsp;Page</a></li> <li><a href="/examples/index_agency.html">Agency</a></li> <li><a href="/examples/index_portfolio.html">Portfolio</a></li> <li><a href="/examples/index_restaurant.html">Restaurant</a></li> <li><a href="/examples/index_finance.html">Finance</a></li> <li><a href="/examples/index_landing.html">Landing&nbsp;Page</a></li> <li><a href="/examples/index_photography.html">Photography</a></li> <li><a href="/examples/index_shop.html">Shop</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Headers</a> <ul class="dropdown-menu"> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Static Image Header</a> <ul class="dropdown-menu"> <li><a href="/examples/index_mp_fullscreen_static.html">Fulscreen</a></li> <li><a href="/examples/index_mp_classic_static.html">Classic</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Flexslider Header</a> <ul class="dropdown-menu"> <li><a href="/examples/index_mp_fullscreen_flexslider.html">Fulscreen</a></li> <li><a href="/examples/index_mp_classic_flexslider.html">Classic</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Video Background Header</a> <ul class="dropdown-menu"> <li><a href="/examples/index_mp_fullscreen_video_background.html">Fulscreen</a></li> <li><a href="/examples/index_mp_classic_video_background.html">Classic</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Text Rotator Header</a> <ul class="dropdown-menu"> <li><a href="/examples/index_mp_fullscreen_text_rotator.html">Fulscreen</a></li> <li><a href="/examples/index_mp_classic_text_rotator.html">Classic</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Gradient Overlay Header</a> <ul class="dropdown-menu"> <li><a href="/examples/index_mp_fullscreen_gradient_overlay.html">Fulscreen</a></li> <li><a href="/examples/index_mp_classic_gradient_overlay.html">Classic</a></li> </ul> </li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Pages</a> <ul class="dropdown-menu"> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">About</a> <ul class="dropdown-menu"> <li><a href="/examples/about1.html">About&nbsp;1</a></li> <li><a href="/examples/about2.html">About&nbsp;2</a></li> <li><a href="/examples/about3.html">About&nbsp;3</a></li> <li><a href="/examples/about4.html">About&nbsp;4</a></li> <li><a href="/examples/about5.html">About&nbsp;5</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Services</a> <ul class="dropdown-menu"> <li><a href="/examples/service1.html">Service&nbsp;1</a></li> <li><a href="/examples/service2.html">Service&nbsp;2</a></li> <li><a href="/examples/service3.html">Service&nbsp;3</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Pricing</a> <ul class="dropdown-menu"> <li><a href="/examples/pricing1.html">Pricing&nbsp;1</a></li> <li><a href="/examples/pricing2.html">Pricing&nbsp;2</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Gallery</a> <ul class="dropdown-menu"> <li><a href="/examples/gallery_col_2.html">2&nbsp;Columns</a></li> <li><a href="/examples/gallery_col_3.html">3&nbsp;Columns</a></li> <li><a href="/examples/gallery_col_4.html">4&nbsp;Columns</a></li> <li><a href="/examples/gallery_col_6.html">6&nbsp;Columns</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Contact</a> <ul class="dropdown-menu"> <li><a href="/examples/contact1.html">Contact&nbsp;1</a></li> <li><a href="/examples/contact2.html">Contact&nbsp;2</a></li> <li><a href="/examples/contact3.html">Contact&nbsp;3</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Restaurant menu</a> <ul class="dropdown-menu"> <li><a href="/examples/restaurant_menu1.html">Menu 2&nbsp;Columns</a></li> <li><a href="/examples/restaurant_menu2.html">Menu 3&nbsp;Columns</a></li> </ul> </li> <li><a href="login_register.html">Login /&nbsp;Register</a></li> <li><a href="faq.html"><span class="caps">FAQ</span></a></li> <li><a href="/404.html">Page&nbsp;404</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Portfolio</a> <ul class="dropdown-menu" role="menu"> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Boxed</a> <ul class="dropdown-menu"> <li><a href="/examples/portfolio_boxed_col_2.html">2&nbsp;Columns</a></li> <li><a href="/examples/portfolio_boxed_col_3.html">3&nbsp;Columns</a></li> <li><a href="/examples/portfolio_boxed_col_4.html">4&nbsp;Columns</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Boxed - Gutter</a> <ul class="dropdown-menu"> <li><a href="/examples/portfolio_boxed_gutter_col_2.html">2&nbsp;Columns</a></li> <li><a href="/examples/portfolio_boxed_gutter_col_3.html">3&nbsp;Columns</a></li> <li><a href="/examples/portfolio_boxed_gutter_col_4.html">4&nbsp;Columns</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Full Width</a> <ul class="dropdown-menu"> <li><a href="/examples/portfolio_full_width_col_2.html">2&nbsp;Columns</a></li> <li><a href="/examples/portfolio_full_width_col_3.html">3&nbsp;Columns</a></li> <li><a href="/examples/portfolio_full_width_col_4.html">4&nbsp;Columns</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Full Width - Gutter</a> <ul class="dropdown-menu"> <li><a href="/examples/portfolio_full_width_gutter_col_2.html">2&nbsp;Columns</a></li> <li><a href="/examples/portfolio_full_width_gutter_col_3.html">3&nbsp;Columns</a></li> <li><a href="/examples/portfolio_full_width_gutter_col_4.html">4&nbsp;Columns</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Masonry</a> <ul class="dropdown-menu"> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Boxed</a> <ul class="dropdown-menu"> <li><a href="/examples/portfolio_masonry_boxed_col_2.html">2&nbsp;Columns</a></li> <li><a href="/examples/portfolio_masonry_boxed_col_3.html">3&nbsp;Columns</a></li> <li><a href="/examples/portfolio_masonry_boxed_col_4.html">4&nbsp;Columns</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Full Width</a> <ul class="dropdown-menu"> <li><a href="/examples/portfolio_masonry_full_width_col_2.html">2&nbsp;Columns</a></li> <li><a href="/examples/portfolio_masonry_full_width_col_3.html">3&nbsp;Columns</a></li> <li><a href="/examples/portfolio_masonry_full_width_col_4.html">4&nbsp;Columns</a></li> </ul> </li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Hover Style</a> <ul class="dropdown-menu"> <li><a href="/examples/portfolio_hover_black.html">Black</a></li> <li><a href="/examples/portfolio_hover_gradient.html">Gradient</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Single</a> <ul class="dropdown-menu"> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Featured Image</a> <ul class="dropdown-menu"> <li><a href="/examples/portfolio_single_featured_image1.html">Style&nbsp;1</a></li> <li><a href="/examples/portfolio_single_featured_image2.html">Style&nbsp;2</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Featured Slider</a> <ul class="dropdown-menu"> <li><a href="/examples/portfolio_single_featured_slider1.html">Style&nbsp;1</a></li> <li><a href="/examples/portfolio_single_featured_slider2.html">Style&nbsp;2</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Featured Video</a> <ul class="dropdown-menu"> <li><a href="/examples/portfolio_single_featured_video1.html">Style&nbsp;1</a></li> <li><a href="/examples/portfolio_single_featured_video2.html">Style&nbsp;2</a></li> </ul> </li> </ul> </li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Blog</a> <ul class="dropdown-menu" role="menu"> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Standard</a> <ul class="dropdown-menu"> <li><a href="/examples/blog_standard_left_sidebar.html">Left&nbsp;Sidebar</a></li> <li><a href="/examples/blog_standard_right_sidebar.html">Right&nbsp;Sidebar</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Grid</a> <ul class="dropdown-menu"> <li><a href="/examples/blog_grid_col_2.html">2&nbsp;Columns</a></li> <li><a href="/examples/blog_grid_col_3.html">3&nbsp;Columns</a></li> <li><a href="/examples/blog_grid_col_4.html">4&nbsp;Columns</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Masonry</a> <ul class="dropdown-menu"> <li><a href="/examples/blog_grid_masonry_col_2.html">2&nbsp;Columns</a></li> <li><a href="/examples/blog_grid_masonry_col_3.html">3&nbsp;Columns</a></li> <li><a href="/examples/blog_grid_masonry_col_4.html">4&nbsp;Columns</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Single</a> <ul class="dropdown-menu"> <li><a href="/examples/blog_single_left_sidebar.html">Left&nbsp;Sidebar</a></li> <li><a href="/examples/blog_single_right_sidebar.html">Right&nbsp;Sidebar</a></li> </ul> </li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Features</a> <ul class="dropdown-menu" role="menu"> <li><a href="/examples/alerts-and-wells.html"><i class="fa fa-bolt"></i> Alerts and&nbsp;Wells</a></li> <li><a href="/examples/buttons.html"><i class="fa fa-link fa-sm"></i>&nbsp;Buttons</a></li> <li><a href="/examples/tabs_and_accordions.html"><i class="fa fa-tasks"></i> Tabs &amp;&nbsp;Accordions</a></li> <li><a href="/examples/content_box.html"><i class="fa fa-list-alt"></i> Contents&nbsp;Box</a></li> <li><a href="/examples/forms.html"><i class="fa fa-check-square-o"></i>&nbsp;Forms</a></li> <li><a href="/examples/icons.html"><i class="fa fa-star"></i>&nbsp;Icons</a></li> <li><a href="/examples/progress-bars.html"><i class="fa fa-server"></i> Progress&nbsp;Bars</a></li> <li><a href="/examples/typography.html"><i class="fa fa-font"></i>&nbsp;Typography</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Shop</a> <ul class="dropdown-menu" role="menu"> <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Product</a> <ul class="dropdown-menu"> <li><a href="/examples/shop_product_col_3.html">3&nbsp;columns</a></li> <li><a href="/examples/shop_product_col_4.html">4&nbsp;columns</a></li> </ul> </li> <li><a href="/examples/shop_single_product.html">Single&nbsp;Product</a></li> <li><a href="/examples/shop_checkout.html">Checkout</a></li> </ul> </li> <li class="dropdown"><a class="dropdown-toggle" href="documentation.html" data-toggle="dropdown">Documentation</a> <ul class="dropdown-menu"> <li><a href="documentation.html#contact">Contact&nbsp;Form</a></li> <li><a href="documentation.html#reservation">Reservation&nbsp;Form</a></li> <li><a href="documentation.html#mailchimp">Mailchimp</a></li> <li><a href="documentation.html#gmap">Google&nbsp;Map</a></li> <li><a href="documentation.html#plugin">Plugins</a></li> <li><a href="documentation.html#changelog">Changelog</a></li> </ul> </li> </ul> </div> </div> </nav> <div class="main documentation-page"> <section class="module bg-dark-60 about-page-header" data-background="/assets/images/about_bg-27cfd461.jpg"> <div class="container"> <div class="row"> <div class="col-sm-6 col-sm-offset-3"> <h2 class="module-title font-alt">Documentation</h2> <div class="module-subtitle font-serif">Thank you for choosing this template. If you have any questions please feel free to email us</div> </div> </div> </div> </section> <section class="module-medium" id="contact"> <div class="container"> <div class="row"> <div class="col-sm-6 col-sm-offset-3"> <h2 class="module-title font-alt">Contact&nbsp;Form</h2> <div class="module-subtitle font-serif"></div> </div> </div> <div class="row"> <div class="col-sm-8 col-sm-offset-2"> <p>Open the file &nbsp;<strong>assets/php/contact.php</strong>&nbsp; and enter your&nbsp;data:</p> <pre class="prettyprint lang-basic">$to = 'info@example.com';  // please change this email id
+$subject = 'Contact Form : Titan - The best downloaded template ever';</pre> <h4>If Contact form form not&nbsp;working</h4> <p>You need to check is <span class="caps">PHP</span> mail() function&nbsp;working.</p> <p> <textarea rows="4" style="width:100%; text-transform: lowercase;"><?php
 mail('you@yourmail.com','Test mail','The mail function is working!');
 echo 'Mail sent!';
-?></textarea>
-                </p>
-                <ul>
-                  <li>Save this code as mailtest.php</li>
-                  <li>change you@yourmail.com to your e-mail address</li>
-                  <li>upload mailtest.php to your server</li>
-                  <li>open mailtest.php in your browser (http://yourwebsite.com/mailtest.php)</li>
-                  <li>check your inbox to see if a test message arrived.</li>
-                </ul><strong>If it works:</strong>
-                <ul>
-                  <li>double-check your form script for errors (like e-mail address misspelling)</li>
-                  <li>use the same e-mail address as your form recipient</li>
-                  <li>double-check your SPAM filters and SPAM/Junk/Bulk mailboxes</li>
-                </ul><strong>If it not</strong>
-                <p>Contact your host and ask them to check PHP mail() setting.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module-medium" id="reservation">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Reservation Form</h2>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <p>Open the file &nbsp;<strong>assets/php/reservation.php</strong>&nbsp; and enter your data:</p>
-                <pre class="prettyprint lang-basic">$from = $email;
+?></textarea> </p> <ul> <li>Save this code as&nbsp;mailtest.php</li> <li>change you@yourmail.com to your e-mail&nbsp;address</li> <li>upload mailtest.php to your&nbsp;server</li> <li>open mailtest.php in your browser&nbsp;(http://yourwebsite.com/mailtest.php)</li> <li>check your inbox to see if a test message&nbsp;arrived.</li> </ul><strong>If it works:</strong> <ul> <li>double-check your form script for errors (like e-mail address&nbsp;misspelling)</li> <li>use the same e-mail address as your form&nbsp;recipient</li> <li>double-check your <span class="caps">SPAM</span> filters and <span class="caps">SPAM</span>/Junk/Bulk&nbsp;mailboxes</li> </ul><strong>If it not</strong> <p>Contact your host and ask them to check <span class="caps">PHP</span> mail()&nbsp;setting.</p> </div> </div> </div> </section> <section class="module-medium" id="reservation"> <div class="container"> <div class="row"> <div class="col-sm-6 col-sm-offset-3"> <h2 class="module-title font-alt">Reservation&nbsp;Form</h2> <div class="module-subtitle font-serif"></div> </div> </div> <div class="row"> <div class="col-sm-8 col-sm-offset-2"> <p>Open the file &nbsp;<strong>assets/php/reservation.php</strong>&nbsp; and enter your&nbsp;data:</p> <pre class="prettyprint lang-basic">$from = $email;
 $to = 'info@example.com';  // please change this email id
 $subject = 'Table Booking : Titan';
 
-</pre>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module-medium" id="mailchimp">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Configuring Mailchimp</h2>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <p>Open the file &nbsp;<strong>assets/php/subscribe.php</strong>&nbsp; and enter your data:</p>
-                <pre class="prettyprint lang-basic">\n// MailChimp
+</pre> </div> </div> </div> </section> <section class="module-medium" id="mailchimp"> <div class="container"> <div class="row"> <div class="col-sm-6 col-sm-offset-3"> <h2 class="module-title font-alt">Configuring&nbsp;Mailchimp</h2> <div class="module-subtitle font-serif"></div> </div> </div> <div class="row"> <div class="col-sm-8 col-sm-offset-2"> <p>Open the file &nbsp;<strong>assets/php/subscribe.php</strong>&nbsp; and enter your&nbsp;data:</p> <pre class="prettyprint lang-basic">\n// MailChimp
 $APIKey = '53bb3bcad3947b9c5b45884b439097******';
-$listID = 'fd1b8b****';</pre>
-                <div class="alert alert-info">Grab an API Key from http://admin.mailchimp.com/account/api/</div>
-                <div class="alert alert-info">Grab your List&apos;s Unique Id by going to http://admin.mailchimp.com/lists/</div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module-medium" id="gmap">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Google Maps</h2>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <p>Open the file &nbsp;<strong>assets/js/main.js</strong>&nbsp; and enter your latitude &amp; longitude:</p>
-                <pre class="prettyprint lang-js">\n/* ---------------------------------------------- /*
+$listID = 'fd1b8b****';</pre> <div class="alert alert-info">Grab an <span class="caps">API</span> Key from http://admin.mailchimp.com/account/api/</div> <div class="alert alert-info">Grab your List&apos;s Unique Id by going to http://admin.mailchimp.com/lists/</div> </div> </div> </div> </section> <section class="module-medium" id="gmap"> <div class="container"> <div class="row"> <div class="col-sm-6 col-sm-offset-3"> <h2 class="module-title font-alt">Google&nbsp;Maps</h2> <div class="module-subtitle font-serif"></div> </div> </div> <div class="row"> <div class="col-sm-8 col-sm-offset-2"> <p>Open the file &nbsp;<strong>assets/js/main.js</strong>&nbsp; and enter your latitude &amp;&nbsp;longitude:</p> <pre class="prettyprint lang-js">\n/* ---------------------------------------------- /*
  * Google Map
 /* ---------------------------------------------- */
 
@@ -465,85 +961,16 @@ if ($mapis.length > 0) {
 
     var mapLocation = new google.maps.LatLng(34.031428,-118.2071542,17);
 
-</pre>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module-medium" id="plugin">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Plugin Settings</h2>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <p>All plugins setting is in &nbsp;<strong>assets/js/custom.js</strong>&nbsp; file</p>
-                <ul>
-                  <li><a href="https://github.com/bas2k/jquery.appear/">Appear</a> - Progress bars, CountTo</li>
-                  <li><a href="http://www.thepetedesign.com/demos/jquery_super_simple_text_rotator_demo.html">Text rotator</a> - Changes to different text in same place. Mainly used in Header</li>
-                  <li><a href="http://isotope.metafizzy.co/">Isotope</a> - Portfolio</li>
-                  <li><a href="https://github.com/woothemes/FlexSlider/wiki/FlexSlider-Properties">FlexSlider</a> - Sliders</li>
-                  <li><a href="http://owlgraphic.com/owlcarousel/#how-to">OWL Carousel</a> - Team carousel, client logos carousel</li>
-                  <li><a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific-popup</a> - Modal window, gallery, modal video</li>
-                  <li><a href="https://github.com/pupunzi/jquery.mb.YTPlayer">Video background</a> - Header video background or any section with video</li>
-                </ul>
-                <p>If you have any questions please feel free to email<a href="mailto:info@themewagon.com">&nbsp; here</a></p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="module-medium" id="changelog">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Changelog</h2>
-                <div class="module-subtitle font-serif"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <p> Version 1.0 - Initial Release</p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-      <script src="/assets/lib/prettify.js"></script>
-      <script>
+</pre> </div> </div> </div> </section> <section class="module-medium" id="plugin"> <div class="container"> <div class="row"> <div class="col-sm-6 col-sm-offset-3"> <h2 class="module-title font-alt">Plugin&nbsp;Settings</h2> <div class="module-subtitle font-serif"></div> </div> </div> <div class="row"> <div class="col-sm-8 col-sm-offset-2"> <p>All plugins setting is in &nbsp;<strong>assets/js/custom.js</strong>&nbsp;&nbsp;file</p> <ul> <li><a href="https://github.com/bas2k/jquery.appear/">Appear</a> - Progress bars,&nbsp;CountTo</li> <li><a href="http://www.thepetedesign.com/demos/jquery_super_simple_text_rotator_demo.html">Text rotator</a> - Changes to different text in same place. Mainly used in&nbsp;Header</li> <li><a href="http://isotope.metafizzy.co/">Isotope</a> -&nbsp;Portfolio</li> <li><a href="https://github.com/woothemes/FlexSlider/wiki/FlexSlider-Properties">FlexSlider</a> -&nbsp;Sliders</li> <li><a href="http://owlgraphic.com/owlcarousel/#how-to"><span class="caps">OWL</span> Carousel</a> - Team carousel, client logos&nbsp;carousel</li> <li><a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific-popup</a> - Modal window, gallery, modal&nbsp;video</li> <li><a href="https://github.com/pupunzi/jquery.mb.YTPlayer">Video background</a> - Header video background or any section with&nbsp;video</li> </ul> <p>If you have any questions please feel free to email<a href="mailto:info@themewagon.com">&nbsp;&nbsp;here</a></p> </div> </div> </div> </section> <section class="module-medium" id="changelog"> <div class="container"> <div class="row"> <div class="col-sm-6 col-sm-offset-3"> <h2 class="module-title font-alt">Changelog</h2> <div class="module-subtitle font-serif"></div> </div> </div> <div class="row"> <div class="col-sm-8 col-sm-offset-2"> <p> Version <span class="caps">1.0</span> - Initial&nbsp;Release</p> </div> </div> </div> </section> </div> <script src="/assets/lib/prettify-d24b1da3.js"></script> <script>
         !function ($) {
             $(function () {
                 window.prettyPrint && prettyPrint()
             })
         }(jQuery)
-      </script>
-    </main>
-    <!--  
-    JavaScripts
-    =============================================
-    -->
-    <script src="/assets/lib/jquery/dist/jquery.js"></script>
-    <script src="/assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="/assets/lib/wow/dist/wow.js"></script>
-    <script src="/assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
-    <script src="/assets/lib/isotope/dist/isotope.pkgd.js"></script>
-    <script src="/assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
-    <script src="/assets/lib/flexslider/jquery.flexslider.js"></script>
-    <script src="/assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script src="/assets/lib/smoothscroll.js"></script>
-    <script src="/assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
-    <script src="/assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
-    <script src="/assets/lib/prettify.js"></script>
-    <script>
+      </script> </main> <script src="/assets/lib/jquery/dist/jquery-38e82b4f.js"></script> <script src="/assets/lib/bootstrap/dist/js/bootstrap.min-430a443d.js"></script> <script src="/assets/lib/wow/dist/wow-7f239033.js"></script> <script src="/assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer-39735765.js"></script> <script src="/assets/lib/isotope/dist/isotope.pkgd-e81154bf.js"></script> <script src="/assets/lib/imagesloaded/imagesloaded.pkgd-27b95c7f.js"></script> <script src="/assets/lib/flexslider/jquery.flexslider-bcd80eff.js"></script> <script src="/assets/lib/owl.carousel/dist/owl.carousel.min-1a99890b.js"></script> <script src="/assets/lib/smoothscroll-db9258cc.js"></script> <script src="/assets/lib/magnific-popup/dist/jquery.magnific-popup-554d5d9d.js"></script> <script src="/assets/lib/simple-text-rotator/jquery.simple-text-rotator.min-d16e0030.js"></script> <script src="/assets/lib/prettify-d24b1da3.js"></script> <script>
       !function ($) {
           $(function () {
               window.prettyPrint && prettyPrint()
           })
       }(jQuery)
-    </script>
-    <script src="/assets/js/plugins.js"></script>
-    <script src="/assets/js/main.js"></script>
-  </body>
-</html>
+    </script> <script src="/assets/js/plugins-f35b6619.js"></script> <script src="/assets/js/main-be4c1c14.js"></script> </body> </html>

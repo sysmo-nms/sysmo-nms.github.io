@@ -10,7 +10,7 @@ build: clean
 clean:
 	rm -rf build
 
-deploy: build
+deploy:
 	find .. -maxdepth 1 \
 		! -name '__middleman__' \
 		! -name '.git' \

@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html lang="en-US" dir="ltr"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Sysmo | Home</title> <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-icon-57x57-77589a83.png"> <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-icon-60x60-ee986d48.png"> <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-icon-72x72-76742786.png"> <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicons/apple-icon-76x76-817ccc8e.png"> <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-icon-114x114-5372a53e.png"> <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-icon-120x120-fcb724a5.png"> <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicons/apple-icon-144x144-6b53dbac.png"> <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicons/apple-icon-152x152-56c7c7af.png"> <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-icon-180x180-c92af253.png"> <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/android-icon-192x192-d73c13ce.png"> <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32-621661ce.png"> <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicons/favicon-96x96-c1d54a33.png"> <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16-9f52c1df.png"> <link rel="manifest" href="/manifest.json"> <meta name="msapplication-TileColor" content="#ffffff"> <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144-6b53dbac.png"> <meta name="theme-color" content="#ffffff"> <style type="text/css">
+<!DOCTYPE html> <html lang="en-US" dir="ltr"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>Sysmo | Services</title> <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-icon-57x57-77589a83.png"> <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-icon-60x60-ee986d48.png"> <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-icon-72x72-76742786.png"> <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicons/apple-icon-76x76-817ccc8e.png"> <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-icon-114x114-5372a53e.png"> <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-icon-120x120-fcb724a5.png"> <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicons/apple-icon-144x144-6b53dbac.png"> <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicons/apple-icon-152x152-56c7c7af.png"> <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-icon-180x180-c92af253.png"> <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/favicons/android-icon-192x192-d73c13ce.png"> <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32-621661ce.png"> <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicons/favicon-96x96-c1d54a33.png"> <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicons/favicon-16x16-9f52c1df.png"> <link rel="manifest" href="/manifest.json"> <meta name="msapplication-TileColor" content="#ffffff"> <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png"> <meta name="theme-color" content="#ffffff"> <style type="text/css">
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -19,8 +19,8 @@ a {
   background-color: transparent;
 }
 
-strong {
-  font-weight: 700;
+img {
+  border: 0;
 }
 
 button {
@@ -82,6 +82,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  vertical-align: middle;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -93,7 +97,6 @@ a {
   border: 0;
 }
 
-h3,
 h4 {
   font-family: inherit;
   font-weight: 500;
@@ -101,18 +104,9 @@ h4 {
   color: inherit;
 }
 
-h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
 h4 {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-h3 {
-  font-size: 24px;
 }
 
 h4 {
@@ -159,15 +153,23 @@ ul {
 }
 
 .col-lg-3,
-.col-lg-4,
 .col-lg-9,
 .col-md-4,
 .col-md-8,
-.col-sm-6 {
+.col-sm-6,
+.col-xs-12 {
   position: relative;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.col-xs-12 {
+  float: left;
+}
+
+.col-xs-12 {
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -197,17 +199,12 @@ ul {
 
 @media (min-width: 1200px) {
   .col-lg-3,
-  .col-lg-4,
   .col-lg-9 {
     float: left;
   }
 
   .col-lg-9 {
     width: 75%;
-  }
-
-  .col-lg-4 {
-    width: 33.33333333%;
   }
 
   .col-lg-3 {
@@ -502,8 +499,8 @@ ul {
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-d980c2ce.eot?v=4.7.0');
-  src: url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-d980c2ce.eot?#iefix&v=4.7.0') format("embedded-opentype"),url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-d6f48cba.woff2?v=4.7.0') format("woff2"),url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-28b78224.woff?v=4.7.0') format("woff"),url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-13b1eab6.ttf?v=4.7.0') format("truetype"),url('assets/lib/components-font-awesome/fonts/fontawesome-webfont-98a8aa5c.svg?v=4.7.0#fontawesomeregular') format("svg");
+  src: url('../assets/lib/components-font-awesome/fonts/fontawesome-webfont-d980c2ce.eot?v=4.7.0');
+  src: url('../assets/lib/components-font-awesome/fonts/fontawesome-webfont-d980c2ce.eot?#iefix&v=4.7.0') format("embedded-opentype"),url('../assets/lib/components-font-awesome/fonts/fontawesome-webfont-d6f48cba.woff2?v=4.7.0') format("woff2"),url('../assets/lib/components-font-awesome/fonts/fontawesome-webfont-28b78224.woff?v=4.7.0') format("woff"),url('../assets/lib/components-font-awesome/fonts/fontawesome-webfont-13b1eab6.ttf?v=4.7.0') format("truetype"),url('../assets/lib/components-font-awesome/fonts/fontawesome-webfont-98a8aa5c.svg?v=4.7.0#fontawesomeregular') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -532,41 +529,6 @@ ul {
   border: 0;
 }
 
-@font-face {
-  font-family: 'et-line';
-  src: url('assets/lib/et-line-font/fonts/et-line-64fc3a0b.eot');
-  src: url('assets/lib/et-line-font/fonts/et-line-64fc3a0b.eot?#iefix') format("embedded-opentype"),url('assets/lib/et-line-font/fonts/et-line-d33413e7.woff') format("woff"),url('assets/lib/et-line-font/fonts/et-line-46078417.ttf') format("truetype"),url('assets/lib/et-line-font/fonts/et-line-db5f4633.svg#et-line') format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-.icon-map,
-.icon-streetsign,
-.icon-clock {
-  font-family: 'et-line';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-}
-
-.icon-map:before {
-  content: "\e025";
-}
-
-.icon-streetsign:before {
-  content: "\e029";
-}
-
-.icon-clock:before {
-  content: "\e055";
-}
-
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
@@ -583,6 +545,11 @@ body {
   font: 400 12px/1.8 "Open Sans", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .btn {
@@ -605,6 +572,10 @@ body {
 
 .module-extra-small {
   padding: 25px 0px;
+}
+
+.module-medium {
+  padding: 75px 0px;
 }
 
 .bg-dark,
@@ -696,7 +667,6 @@ a {
   color: #aaa;
 }
 
-h3,
 h4 {
   line-height: 1.4;
   font-weight: 400;
@@ -835,24 +805,9 @@ ul {
   font-size: 48px;
 }
 
-.features-item {
+.content-box {
   margin: 20px 0;
   text-align: center;
-}
-
-.features-icon {
-  line-height: 1.2;
-  font-size: 42px;
-  color: #111;
-}
-
-.features-title {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 400;
-  font-size: 14px;
-  color: #111;
-  margin: 16px 0 15px;
 }
 
 .callout-text {
@@ -862,6 +817,20 @@ ul {
 .callout-btn-box {
   text-align: right;
   padding-top: 4px;
+}
+
+.showcase-page .content-box {
+  display: block;
+  margin-bottom: 45px;
+}
+
+.showcase-page .content-box .content-box-image {
+  border-radius: 6px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  box-shadow: 1px 2px 10px rgba(0,0,0,0.15);
+  margin-bottom: 15px;
 }
 
 @media (max-width: 1050px) {
@@ -902,10 +871,6 @@ ul {
     font-size: 28px;
   }
 
-  .features-item {
-    margin: 0 0 30px;
-  }
-
   .callout-text {
     margin: 0 0 30px;
   }
@@ -917,18 +882,18 @@ ul {
 }
 
 </style>
-<link href="/assets/lib/bootstrap/dist/css/bootstrap.min-6527d8bf.9d99c906.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-<noscript><link href="/assets/lib/bootstrap/dist/css/bootstrap.min-6527d8bf.9d99c906.css" rel="stylesheet"></noscript> <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="preload" as="style" onload="this.rel='stylesheet'">
+<link href="/assets/lib/bootstrap/dist/css/bootstrap.min-6527d8bf.fe222eaf.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/bootstrap/dist/css/bootstrap.min-6527d8bf.fe222eaf.css" rel="stylesheet"></noscript> <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="preload" as="style" onload="this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet"></noscript> <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="preload" as="style" onload="this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet"></noscript> <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="preload" as="style" onload="this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet"></noscript> <link href="/assets/lib/animate.css/animate-5bac0162.766368a2.css" rel="preload" as="style" onload="this.rel='stylesheet'">
 <noscript><link href="/assets/lib/animate.css/animate-5bac0162.766368a2.css" rel="stylesheet"></noscript> <link href="/assets/lib/components-font-awesome/css/font-awesome.min-512c7d79.7c07044d.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-<noscript><link href="/assets/lib/components-font-awesome/css/font-awesome.min-512c7d79.7c07044d.css" rel="stylesheet"></noscript> <link href="/assets/lib/et-line-font/et-line-font-c4778f90.ddb5a3ca.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-<noscript><link href="/assets/lib/et-line-font/et-line-font-c4778f90.ddb5a3ca.css" rel="stylesheet"></noscript> <link href="/assets/lib/flexslider/flexslider-c05798f0.78a7c341.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/components-font-awesome/css/font-awesome.min-512c7d79.7c07044d.css" rel="stylesheet"></noscript> <link href="/assets/lib/et-line-font/et-line-font-c4778f90.8667808c.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/lib/et-line-font/et-line-font-c4778f90.8667808c.css" rel="stylesheet"></noscript> <link href="/assets/lib/flexslider/flexslider-c05798f0.78a7c341.css" rel="preload" as="style" onload="this.rel='stylesheet'">
 <noscript><link href="/assets/lib/flexslider/flexslider-c05798f0.78a7c341.css" rel="stylesheet"></noscript> <link href="/assets/lib/owl.carousel/dist/assets/owl.carousel.min-73d8a692.012d0566.css" rel="preload" as="style" onload="this.rel='stylesheet'">
 <noscript><link href="/assets/lib/owl.carousel/dist/assets/owl.carousel.min-73d8a692.012d0566.css" rel="stylesheet"></noscript> <link href="/assets/lib/owl.carousel/dist/assets/owl.theme.default.min-31f27f63.44f5110a.css" rel="preload" as="style" onload="this.rel='stylesheet'">
 <noscript><link href="/assets/lib/owl.carousel/dist/assets/owl.theme.default.min-31f27f63.44f5110a.css" rel="stylesheet"></noscript> <link href="/assets/lib/magnific-popup/dist/magnific-popup-d6963db6.c1df21fb.css" rel="preload" as="style" onload="this.rel='stylesheet'">
 <noscript><link href="/assets/lib/magnific-popup/dist/magnific-popup-d6963db6.c1df21fb.css" rel="stylesheet"></noscript> <link href="/assets/lib/simple-text-rotator/simpletextrotator-e0fb1ee8.605bbbf1.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-<noscript><link href="/assets/lib/simple-text-rotator/simpletextrotator-e0fb1ee8.605bbbf1.css" rel="stylesheet"></noscript> <link href="/assets/css/style-12f7b5ad.f85f30fc.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-<noscript><link href="/assets/css/style-12f7b5ad.f85f30fc.css" rel="stylesheet"></noscript>
-<script>!function(e){"use strict";var t=function(t,n,r){function o(e){if(i.body)return e();setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var l,i=e.document,d=i.createElement("link");if(n)l=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=f,f(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(e){return!1}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r,r.getAttribute("media")),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){t.poly(),e.clearInterval(n)}),e.attachEvent&&e.attachEvent("onload",function(){e.clearInterval(n)})}}}(this);</script> </head> <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60"> <main> <div class="page-loader"> <div class="loader">Loading&#8230;</div> </div> <nav class="navbar navbar-custom navbar-fixed-top" role="navigation"> <div class="container"> <div class="navbar-header"> <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/">Sysmo</a> </div> <div class="collapse navbar-collapse" id="custom-collapse"> <ul class="nav navbar-nav navbar-right"> <li><a href="/">Home</a></li> <li><a href="/Download/">Download</a></li> <li><a href="/Documentation/">Documentation</a></li> <li><a href="/Services/">Services</a></li> <li><a href="/About/">About</a></li> </ul> </div> </div> </nav> <section class="bg-dark-30 showcase-page-header module parallax-bg" data-background="/assets/images/background-home-947d7b0b.jpg"> <div class="titan-caption"> <div class="caption-content"> <div class="font-alt mb-30 titan-title-size-1">Scallable, multipurpose monitoring and <br>network management system</div> <div class="font-alt mb-40 titan-title-size-4">Sysmo <strong><span class="caps">NMS</span></strong></div><a class="section-scroll btn btn-border-w btn-round" href="#more">More&#8230;</a> </div> </div> </section> <div class="main showcase-page"> <section class="module-extra-small bg-dark"> <div class="container"> <div class="row"> <div class="col-sm-6 col-md-8 col-lg-9"> <div class="callout-text font-alt"> <h4 style="margin-top: 0px; font-;">Open Source&nbsp;Project</h4> <p style="margin-bottom: 0px;">Sysmo is an open source server and client technology for <span class="caps">IT</span> infrastructure management and monitoring. The project goal is to make the easiest and most ergonomic tool for <span class="caps">IT</span> teams, offering performances graphs and <span class="caps">IT</span> status overview in no&nbsp;time.</p> </div> </div> <div class="col-sm-6 col-md-4 col-lg-3"> <div class="callout-btn-box"><a class="btn btn-border-w btn-circle" target="_blank" href="https://github.com/sysmo-nms">Fork us on GitHub&#8230;</a></div> </div> </div> </div> </section> <section class="module module-extra-small" id="more"> <div class="container"> <div class="row multi-columns-row"> <div class="col-sm-6 col-md-4 col-lg-4"> <div class="features-item"> <div class="features-icon"><span class="icon-clock"></span></div> <h3 class="features-title font-alt">Minimize <span class="caps">IT</span> failures&nbsp;cost&#8230;</h3> <p> <em>&#8230; business must run. Nobody wants their customers to get an “Error 404” from the web server or all employees to get stuck in their work because the “router is overloaded”.</em><br></p> <p> With Sysmo you can proactively detect problems and quickly identify the current ones, increasing your overall <span class="caps">IT</span> services reactivity and fiability. You will then enhance employees productivity and customers&nbsp;satisfaction. </p> </div> </div> <div class="col-sm-6 col-md-4 col-lg-4"> <div class="features-item"> <div class="features-icon"><span class="icon-streetsign"></span></div> <h3 class="features-title font-alt">Free your <span class="caps">IT</span>&nbsp;team&#8230;</h3> <p><em>&#8230; as important as management or monitoring tools are, they must help the <span class="caps">IT</span> team to concentrate on business valuable services. Not the&nbsp;opposite.</em></p> <p>Our main top notch Sysmo-Operator user interface offer to your <span class="caps">IT</span> team the most efficient and ergonomic tool on the market for monitoring and managing their elements. They can then concentrate on business centred services rather than reading heavy documentations, or doing pointless administration&nbsp;tasks. </p> </div> </div> <div class="col-sm-6 col-md-4 col-lg-4"> <div class="features-item"> <div class="features-icon"><span class="icon-map"></span></div> <h3 class="features-title font-alt">Manage your <span class="caps">IT</span>&nbsp;infrastructure</h3> <p><em>To accompany business growth, the <span class="caps">IT</span> team needs a professional tool to handle increasing numbers of network elements and&nbsp;servers.</em></p> <p>Sysmo introduces some original concepts that will improve overall <span class="caps">IT</span> consistency by allowing <span class="caps">IT</span> team to inventory and access any kind of network or server elements from an unified interface. A well inventoried <span class="caps">IT</span> will boost failure resolution as well as facilitating skill sharing and&nbsp;transfer. </p> </div> </div> </div> </div> </section> </div> <div class="module-small bg-dark"> <div class="container"> <div class="row"> <div class="col-sm-3"> <div class="widget"> <h5 class="widget-title font-alt">About&nbsp;Titan</h5> <p>The languages only differ in their grammar, their pronunciation and their most common&nbsp;words.</p> <p>Phone: +1 234 567 89&nbsp;10</p>Fax: +1 234 567 89 10 <p>Email:<a href="#">somecompany@example.com</a></p> </div> </div> <div class="col-sm-3"> <div class="widget"> <h5 class="widget-title font-alt">Recent&nbsp;Comments</h5> <ul class="icon-list"> <li>Maria on <a href="#">Designer Desk&nbsp;Essentials</a></li> <li>John on <a href="#">Realistic Business Card&nbsp;Mockup</a></li> <li>Andy on <a href="#">Eco bag&nbsp;Mockup</a></li> <li>Jack on <a href="#">Bottle&nbsp;Mockup</a></li> <li>Mark on <a href="#">Our trip to the&nbsp;Alps</a></li> </ul> </div> </div> <div class="col-sm-3"> <div class="widget"> <h5 class="widget-title font-alt">Blog&nbsp;Categories</h5> <ul class="icon-list"> <li><a href="#">Photography -&nbsp;7</a></li> <li><a href="#">Web Design -&nbsp;3</a></li> <li><a href="#">Illustration -&nbsp;12</a></li> <li><a href="#">Marketing -&nbsp;1</a></li> <li><a href="#">Wordpress -&nbsp;16</a></li> </ul> </div> </div> <div class="col-sm-3"> <div class="widget"> <h5 class="widget-title font-alt">Popular&nbsp;Posts</h5> <ul class="widget-posts"> <li class="clearfix"> <div class="widget-posts-image"><a href="#"><img src="/assets/images/rp-1-6fb3ef88.jpg" alt="Post Thumbnail"></a></div> <div class="widget-posts-body"> <div class="widget-posts-title"><a href="#">Designer Desk Essentials</a></div> <div class="widget-posts-meta">23 january</div> </div> </li> <li class="clearfix"> <div class="widget-posts-image"><a href="#"><img src="/assets/images/rp-2-891a2914.jpg" alt="Post Thumbnail"></a></div> <div class="widget-posts-body"> <div class="widget-posts-title"><a href="#">Realistic Business Card Mockup</a></div> <div class="widget-posts-meta">15 February</div> </div> </li> </ul> </div> </div> </div> </div> </div> <hr class="divider-d"> <footer class="footer bg-dark"> <div class="container"> <div class="row"> <div class="col-sm-6"> <p class="copyright font-alt">&copy; 2017&nbsp;<a href="/index.html">TitaN</a>, All Rights&nbsp;Reserved</p> </div> <div class="col-sm-6"> <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a> </div> </div> </div> </div> </footer>  <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div> </main> <script src="/assets/lib/jquery/dist/jquery-38e82b4f.js"></script> <script src="/assets/lib/bootstrap/dist/js/bootstrap.min-430a443d.js"></script> <script src="/assets/lib/wow/dist/wow-7f239033.js"></script> <script src="/assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer-39735765.js"></script> <script src="/assets/lib/isotope/dist/isotope.pkgd-e81154bf.js"></script> <script src="/assets/lib/imagesloaded/imagesloaded.pkgd-27b95c7f.js"></script> <script src="/assets/lib/flexslider/jquery.flexslider-bcd80eff.js"></script> <script src="/assets/lib/owl.carousel/dist/owl.carousel.min-1a99890b.js"></script> <script src="/assets/lib/smoothscroll-db9258cc.js"></script> <script src="/assets/lib/magnific-popup/dist/jquery.magnific-popup-554d5d9d.js"></script> <script src="/assets/lib/simple-text-rotator/jquery.simple-text-rotator.min-d16e0030.js"></script> <script src="/assets/js/plugins-f35b6619.js"></script> <script src="/assets/js/main-be4c1c14.js"></script> </body> </html>
+<noscript><link href="/assets/lib/simple-text-rotator/simpletextrotator-e0fb1ee8.605bbbf1.css" rel="stylesheet"></noscript> <link href="/assets/css/style-12f7b5ad.94394c6b.css" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link href="/assets/css/style-12f7b5ad.94394c6b.css" rel="stylesheet"></noscript>
+<script>!function(e){"use strict";var t=function(t,n,r){function o(e){if(i.body)return e();setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var l,i=e.document,d=i.createElement("link");if(n)l=n;else{var s=(i.body||i.getElementsByTagName("head")[0]).childNodes;l=s[s.length-1]}var u=i.styleSheets;d.rel="stylesheet",d.href=t,d.media="only x",o(function(){l.parentNode.insertBefore(d,n?l:l.nextSibling)});var f=function(e){for(var t=d.href,n=u.length;n--;)if(u[n].href===t)return e();setTimeout(function(){f(e)})};return d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=f,f(a),d};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this),function(e){if(e.loadCSS){var t=loadCSS.relpreload={};if(t.support=function(){try{return e.document.createElement("link").relList.supports("preload")}catch(e){return!1}},t.poly=function(){for(var t=e.document.getElementsByTagName("link"),n=0;n<t.length;n++){var r=t[n];"preload"===r.rel&&"style"===r.getAttribute("as")&&(e.loadCSS(r.href,r,r.getAttribute("media")),r.rel=null)}},!t.support()){t.poly();var n=e.setInterval(t.poly,300);e.addEventListener&&e.addEventListener("load",function(){t.poly(),e.clearInterval(n)}),e.attachEvent&&e.attachEvent("onload",function(){e.clearInterval(n)})}}}(this);</script> </head> <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60"> <main> <div class="page-loader"> <div class="loader">Loading&#8230;</div> </div> <nav class="navbar navbar-custom navbar-fixed-top" role="navigation"> <div class="container"> <div class="navbar-header"> <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/">Sysmo</a> </div> <div class="collapse navbar-collapse" id="custom-collapse"> <ul class="nav navbar-nav navbar-right"> <li><a href="/">Home</a></li> <li><a href="/Download/">Download</a></li> <li><a href="/Documentation/">Documentation</a></li> <li><a href="/Services/">Services</a></li> <li><a href="/About/">About</a></li> </ul> </div> </div> </nav> <section class="bg-dark-30 showcase-page-header module parallax-bg" data-background="/assets/images/showcase_bg-312a2fb0.jpg"> <div class="titan-caption"> <div class="caption-content"> <div class="font-alt mb-30 titan-title-size-1">Powerful. Multipurpose.</div> <div class="font-alt mb-40 titan-title-size-4">100+ Layouts</div><a class="section-scroll btn btn-border-w btn-round" href="#demos">See Demos</a> </div> </div> </section> <div class="main showcase-page"> <section class="module-extra-small bg-dark"> <div class="container"> <div class="row"> <div class="col-sm-6 col-md-8 col-lg-9"> <div class="callout-text font-alt"> <h4 style="margin-top: 0px; font-;">Start Creating Beautiful&nbsp;Websites</h4> <p style="margin-bottom: 0px;">Download Titan Free&nbsp;today!</p> </div> </div> <div class="col-sm-6 col-md-4 col-lg-3"> <div class="callout-btn-box"><a class="btn btn-border-w btn-circle" href="https://themewagon.com/themes/titan/">Downlaod Free</a></div> </div> </div> </div> </section> <section class="module-medium" id="demos"> <div class="container"> <div class="row multi-columns-row"> <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="/examples/index_mp_fullscreen_video_background.html"> <div class="content-box-image"><img src="/assets/images/screenshots/main_demo-ec275b9c.jpg" alt="Main Demo"></div> <h3 class="content-box-title font-serif">Main&nbsp;Demo</h3></a></div> <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="/examples/index_agency.html"> <div class="content-box-image"><img src="/assets/images/screenshots/agency-268d2d27.jpg" alt="Agency"></div> <h3 class="content-box-title font-serif">Agency</h3></a></div> <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="/examples/index_portfolio.html"> <div class="content-box-image"><img src="/assets/images/screenshots/portfolio-2c0bcc96.jpg" alt="Portfolio"></div> <h3 class="content-box-title font-serif">Portfolio</h3></a></div> <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="/examples/index_restaurant.html"> <div class="content-box-image"><img src="/assets/images/screenshots/restaurant-a87fc89c.jpg" alt="Restaurant"></div> <h3 class="content-box-title font-serif">Restaurant</h3></a></div> <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="/examples/index_finance.html"> <div class="content-box-image"><img src="/assets/images/screenshots/finance-6e564e76.jpg" alt="Finance"></div> <h3 class="content-box-title font-serif">Finance</h3></a></div> <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="/examples/index_landing.html"> <div class="content-box-image"><img src="/assets/images/screenshots/landing-941abc80.jpg" alt="Landing"></div> <h3 class="content-box-title font-serif">Landing</h3></a></div> <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="/examples/index_photography.html"> <div class="content-box-image"><img src="/assets/images/screenshots/photography-c1afefb9.jpg" alt="Photography"></div> <h3 class="content-box-title font-serif">Photography</h3></a></div> <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="/examples/index_shop.html"> <div class="content-box-image"><img src="/assets/images/screenshots/shop-7bf875cf.jpg" alt="Shop"></div> <h3 class="content-box-title font-serif">Shop</h3></a></div> <div class="col-md-4 col-sm-6 col-xs-12"><a class="content-box" href="/examples/index_op_fullscreen_gradient_overlay.html"> <div class="content-box-image"><img src="/assets/images/screenshots/one_page-8cf04d31.jpg" alt="One Page"></div> <h3 class="content-box-title font-serif">One&nbsp;Page</h3></a></div> </div> </div> </section> <div class="module-small bg-dark"> <div class="container"> <div class="row"> <div class="col-sm-3"> <div class="widget"> <h5 class="widget-title font-alt">About&nbsp;Titan</h5> <p>The languages only differ in their grammar, their pronunciation and their most common&nbsp;words.</p> <p>Phone: +1 234 567 89&nbsp;10</p>Fax: +1 234 567 89 10 <p>Email:<a href="#">somecompany@example.com</a></p> </div> </div> <div class="col-sm-3"> <div class="widget"> <h5 class="widget-title font-alt">Recent&nbsp;Comments</h5> <ul class="icon-list"> <li>Maria on <a href="#">Designer Desk&nbsp;Essentials</a></li> <li>John on <a href="#">Realistic Business Card&nbsp;Mockup</a></li> <li>Andy on <a href="#">Eco bag&nbsp;Mockup</a></li> <li>Jack on <a href="#">Bottle&nbsp;Mockup</a></li> <li>Mark on <a href="#">Our trip to the&nbsp;Alps</a></li> </ul> </div> </div> <div class="col-sm-3"> <div class="widget"> <h5 class="widget-title font-alt">Blog&nbsp;Categories</h5> <ul class="icon-list"> <li><a href="#">Photography -&nbsp;7</a></li> <li><a href="#">Web Design -&nbsp;3</a></li> <li><a href="#">Illustration -&nbsp;12</a></li> <li><a href="#">Marketing -&nbsp;1</a></li> <li><a href="#">Wordpress -&nbsp;16</a></li> </ul> </div> </div> <div class="col-sm-3"> <div class="widget"> <h5 class="widget-title font-alt">Popular&nbsp;Posts</h5> <ul class="widget-posts"> <li class="clearfix"> <div class="widget-posts-image"><a href="#"><img src="/assets/images/rp-1-6fb3ef88.jpg" alt="Post Thumbnail"></a></div> <div class="widget-posts-body"> <div class="widget-posts-title"><a href="#">Designer Desk Essentials</a></div> <div class="widget-posts-meta">23 january</div> </div> </li> <li class="clearfix"> <div class="widget-posts-image"><a href="#"><img src="/assets/images/rp-2-891a2914.jpg" alt="Post Thumbnail"></a></div> <div class="widget-posts-body"> <div class="widget-posts-title"><a href="#">Realistic Business Card Mockup</a></div> <div class="widget-posts-meta">15 February</div> </div> </li> </ul> </div> </div> </div> </div> </div> <hr class="divider-d"> <footer class="footer bg-dark"> <div class="container"> <div class="row"> <div class="col-sm-6"> <p class="copyright font-alt">&copy; 2017&nbsp;<a href="/index.html">TitaN</a>, All Rights&nbsp;Reserved</p> </div> <div class="col-sm-6"> <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a> </div> </div> </div> </div> </footer> </div> <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div> </main> <script src="/assets/lib/jquery/dist/jquery-38e82b4f.js"></script> <script src="/assets/lib/bootstrap/dist/js/bootstrap.min-430a443d.js"></script> <script src="/assets/lib/wow/dist/wow-7f239033.js"></script> <script src="/assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer-39735765.js"></script> <script src="/assets/lib/isotope/dist/isotope.pkgd-e81154bf.js"></script> <script src="/assets/lib/imagesloaded/imagesloaded.pkgd-27b95c7f.js"></script> <script src="/assets/lib/flexslider/jquery.flexslider-bcd80eff.js"></script> <script src="/assets/lib/owl.carousel/dist/owl.carousel.min-1a99890b.js"></script> <script src="/assets/lib/smoothscroll-db9258cc.js"></script> <script src="/assets/lib/magnific-popup/dist/jquery.magnific-popup-554d5d9d.js"></script> <script src="/assets/lib/simple-text-rotator/jquery.simple-text-rotator.min-d16e0030.js"></script> <script src="/assets/js/plugins-f35b6619.js"></script> <script src="/assets/js/main-be4c1c14.js"></script> </body> </html>
