@@ -4,7 +4,7 @@
 (function(){
     $(window).on('load', function() {
         $('.loader').fadeOut();
-        $('.page-loader').delay(350).fadeOut('slow');
+        $('.page-loader').delay(0).fadeOut('slow');
     });
 
     $(document).ready(function() {
@@ -32,7 +32,7 @@
         });
 
         $('a[href="#totop"]').click(function() {
-            $('html, body').animate({ scrollTop: 0 }, 'slow');
+            $('html, body').animate({ scrollTop: 0 }, 'fast');
             return false;
         });
 
@@ -433,7 +433,7 @@
             var anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top - 50
-            }, 1000);
+            }, 'fast');
             e.preventDefault();
         });
 
