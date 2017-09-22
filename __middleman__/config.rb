@@ -4,7 +4,7 @@ page '/*.txt', layout: false
 
 activate :livereload, host: '127.0.0.1', port: '34054', livereload_css_target: nil
 
-#ignore 'examples/**'
+ignore 'examples/**'
 
 config[:js_dir] = 'assets/js'
 config[:css_dir] = 'assets/css'
