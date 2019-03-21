@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.sysmo.io/</loc>
+    <loc>https://sysmo-nms.github.io/</loc>
     <lastmod>2017-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.sysmo.io/About/</loc>
+    <loc>https://sysmo-nms.github.io/About/</loc>
     <lastmod>2017-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.sysmo.io/Community/</loc>
+    <loc>https://sysmo-nms.github.io/Community/</loc>
     <lastmod>2017-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.sysmo.io/Documentation/</loc>
+    <loc>https://sysmo-nms.github.io/Documentation/</loc>
     <lastmod>2017-03-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.sysmo.io/Downloads/</loc>
+    <loc>https://sysmo-nms.github.io/Downloads/</loc>
     <lastmod>2017-02-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.sysmo.io/Products/</loc>
+    <loc>https://sysmo-nms.github.io/Products/</loc>
     <lastmod>2017-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://www.sysmo.io/Products/Purchase/</loc>
+    <loc>https://sysmo-nms.github.io/Products/Purchase/</loc>
     <lastmod>2017-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.sysmo.io/Services/</loc>
+    <loc>https://sysmo-nms.github.io/Services/</loc>
     <lastmod>2017-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.sysmo.io/Services/Details/</loc>
+    <loc>https://sysmo-nms.github.io/Services/Details/</loc>
     <lastmod>2017-01-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.sysmo.io/humans.txt</loc>
+    <loc>https://sysmo-nms.github.io/humans.txt</loc>
     <lastmod>2017-01-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>http://www.sysmo.io/sitemap.xml</loc>
+    <loc>https://sysmo-nms.github.io/sitemap.xml</loc>
     <lastmod>2017-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>

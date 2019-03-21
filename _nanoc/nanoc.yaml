@@ -76,4 +76,4 @@ checks:
     #   exclude: ['^/server_status']
     exclude: []
 
-base_url: http://www.sysmo.io
+base_url: https://sysmo-nms.github.io

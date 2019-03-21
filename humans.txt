@@ -1,6 +1,5 @@
 /* TEAM */
-    Conceptor:  ssbx@sysmo.io
-    Site:       www.sysmo.io/About
+    Site:       https://sysmo-nms.github.io/About
     Location:   Bordeaux, France
 
 /* SITE */

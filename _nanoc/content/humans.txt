@@ -3,8 +3,7 @@ changefreq: yearly
 priority: 0.1
 ---
 /* TEAM */
-    Conceptor:  ssbx@sysmo.io
-    Site:       www.sysmo.io/About
+    Site:       sysmo-nms.github.io/About
     Location:   Bordeaux, France
 
 /* SITE */
